@@ -1,0 +1,13 @@
+Source: ros-kinetic-distance-map-tools
+Section: misc
+Priority: extra
+Maintainer: Jeremie Deray <deray.jeremie@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-backward-ros, ros-kinetic-catkin, ros-kinetic-distance-map-core, ros-kinetic-interactive-markers, ros-kinetic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-distance-map-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-backward-ros, ros-kinetic-distance-map-core, ros-kinetic-interactive-markers, ros-kinetic-visualization-msgs
+Description: Node package of the map_distance project.
+ It contains the ROS node that instantiate the distance map plugin.
