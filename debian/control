@@ -1,0 +1,13 @@
+Source: ros-kinetic-distance-map-opencv
+Section: misc
+Priority: extra
+Maintainer: Jeremie Deray <deray.jeremie@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-distance-map-core, ros-kinetic-image-geometry
+Homepage: https://github.com/opencv/opencv
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-distance-map-opencv
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-distance-map-core, ros-kinetic-image-geometry
+Description: Node package of the map_distance project.
+ It contains the ROS node that instantiate the distance map plugin.
