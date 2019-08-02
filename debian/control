@@ -1,0 +1,12 @@
+Source: ros-melodic-distance-map-core
+Section: misc
+Priority: extra
+Maintainer: Jeremie Deray <deray.jeremie@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-costmap-2d, ros-melodic-distance-map-msgs, ros-melodic-nav-msgs, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-tf2, ros-melodic-tf2-geometry-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-distance-map-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-costmap-2d, ros-melodic-distance-map-msgs, ros-melodic-nav-msgs, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-tf2, ros-melodic-tf2-geometry-msgs
+Description: The distance_map_core package.
