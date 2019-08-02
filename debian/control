@@ -1,0 +1,13 @@
+Source: ros-melodic-distance-map-deadreck
+Section: misc
+Priority: extra
+Maintainer: Jeremie Deray <deray.jeremie@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-distance-map-core
+Homepage: https://github.com/arkanis/single-header-file-c-libs
+Standards-Version: 3.9.2
+
+Package: ros-melodic-distance-map-deadreck
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-distance-map-core
+Description: Node package of the map_distance project.
+ It contains the ROS node that instantiate the distance map plugin.
